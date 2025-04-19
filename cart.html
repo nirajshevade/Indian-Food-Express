@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Indian Food Express</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">IndianFoodExpress</a>
+        </div>
+        
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="menu.html">Menu <i class="fas fa-caret-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="menu.html#maharashtrian">Maharashtrian</a></li>
+                    <li><a href="menu.html#punjabi">Punjabi</a></li>
+                    <li><a href="menu.html#southindian">South Indian</a></li>
+                    <li><a href="menu.html#gujarati">Gujarati</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="thalis.html">Special Thalis <i class="fas fa-caret-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="thalis.html#veg">Veg Thali</a></li>
+                    <li><a href="thalis.html#nonveg">Non-Veg Thali</a></li>
+                    <li><a href="thalis.html#festival">Festival Special</a></li>
+                </ul>
+            </li>
+            <li><a href="track-order.html">Track Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="cart-container">
+        <h1>Your Cart</h1>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="images/puran-poli.jpg" alt="Puran Poli">
+                <div class="item-details">
+                    <h3>Puran Poli</h3>
+                    <p>₹120</p>
+                </div>
+                <div class="item-quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+                <button class="remove-btn"><i class="fas fa-trash"></i></button>
+            </div>
+        </div>
+        
+        <div class="cart-summary">
+            <h3>Order Summary</h3>
+            <div class="summary-item">
+                <span>Subtotal</span>
+                <span>₹120.00</span>
+            </div>
+            <div class="summary-item">
+                <span>Delivery Fee</span>
+                <span>₹40.00</span>
+            </div>
+            <div class="summary-item total">
+                <span>Total</span>
+                <span>₹160.00</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="thalis.html">Special Thalis</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>Phone: +91 98765 43210</p>
+                <p>Email: info@indianfoodexpress.com</p>
+                <p>Address: 1317, Kasaba Peth, Pune,<br> Maharashtra, India</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 IndianFoodExpress. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
