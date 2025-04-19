@@ -3,7 +3,7 @@
 A responsive food delivery website specializing in authentic Indian cuisine, built with HTML and CSS.
 
 ## 🚀 Live Demo
-[View Live Demo](https://your-github-username.github.io/indian-food-express)
+[View Live Demo](https://nirajshevade.github.io/Indian-Food-Express/)
 
 ## 📸 Screenshots
 
